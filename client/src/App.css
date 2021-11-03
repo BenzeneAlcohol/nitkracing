@@ -1,0 +1,18 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  font-display: swap;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+

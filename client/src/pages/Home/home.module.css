@@ -1,0 +1,155 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+    color: white;
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+.image_container{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    position: relative;
+}
+
+.text_container{
+    width: 50vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80vh;
+}
+
+.helmet_image{
+    width: 350px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.heading{
+    margin: 0px;
+    padding: 0px;
+    font-size:40px;
+    width: 80%;
+    line-height: 45px;
+    position: absolute;
+    
+}
+
+.secondary_subheading{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    position: absolute;
+}
+
+.primary_subheading{
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: red;
+    letter-spacing: 8px;
+}
+
+
+
+.slide_changer{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.slide__left , .slide__right{
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+.slide__left:hover , .slide__right:hover{
+    color: red;
+}
+
+.slide__left{
+    margin-left: 50px;
+
+}
+
+.slide__right{
+    margin-right: 50px;
+}
+
+.image_transition{
+    position: relative;
+    width: 350px;
+    height: 350px;
+}
+
+.heading_transition{
+    position: relative;
+    height: 80px;
+}
+
+.anime_secondary_subheading{
+    position: relative;
+    height: 120px;
+    text-overflow: ellipsis;
+}
+
+.anime_primary_subheading{
+    position: relative;
+    height: 40px;
+}
+
+.big_heading{
+    position: absolute;
+    left: 40%;
+    transform: translateX(-50%);
+    top: -20%;
+    font-size: 200px;
+    color: rgb(141, 141, 141);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+
+@media (max-width:768px) {
+
+  .button_group{
+    padding-top: 40px;
+  }
+
+  .big_heading{
+    top: 5%;
+    left: 50%;
+
+    font-size: 70px  ;
+  }
+  .image_container{
+    display: none;
+}
+
+.text_container{
+  width: 100vw;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.heading{
+}
+
+.primary_subheading{
+  font-size: 12px;
+
+}
+
+.secondary_subheading{
+  font-size: 12px;
+}
+
+}

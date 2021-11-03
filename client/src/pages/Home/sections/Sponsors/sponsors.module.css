@@ -1,0 +1,56 @@
+.sponsor_logo{
+    width: 210px;
+}
+
+.sponsors{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: auto;
+    gap: 40px;
+    padding-top: 40px;
+    grid-template-columns: repeat(auto-fit , minmax(200px , 1fr));
+}
+
+.sponsor{
+    transform: translateY(0px);
+    filter: grayscale(1.0);
+    transition: all 0.5s ease ;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+  
+}
+
+
+
+
+.sponsor:hover{
+    transform: translateY(-10px);
+    filter: grayscale(0.0);
+
+}
+
+
+
+.heading{
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+
+    margin-bottom: 0;
+
+}
+
+.heading span{
+    padding: 5px;
+    border-bottom: 3px solid red;
+}
+
+
+@media screen and (max-width:"768px") {
+  
+}

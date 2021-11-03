@@ -1,0 +1,13 @@
+section#newsletter{
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+}
+
+
+#newsletter .splide__pagination__page{
+    display: none;
+
+}
+

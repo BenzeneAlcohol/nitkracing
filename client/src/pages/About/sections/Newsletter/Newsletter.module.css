@@ -1,0 +1,84 @@
+.wrapper{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.mail{
+    flex: 2;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex:1;
+}
+
+.magzine img{
+    width: 100%;
+    filter: grayscale(1.0);
+
+}
+
+.heading{
+}
+
+.heading span{
+    padding-left: 10px;
+    border-left: 5px solid red;
+}
+
+.info{
+    font-weight: 300;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.info :nth-child(2){
+    cursor: pointer;
+    transition-duration: 300ms;
+    padding-top: 10px;
+    color: black;
+    text-align: right;
+}
+
+.info :nth-child(2) i{
+    padding-right: 10px;
+
+}
+
+
+.info :nth-child(2):hover{
+    color: red;
+    transform: translateY(2px);
+
+}
+
+
+
+.metadata i{
+    padding-right: 10px;
+}
+
+.metadata{
+    font-size: 14px;
+    text-align: right;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .wrapper{
+    flex-direction: column;
+  }
+}
+

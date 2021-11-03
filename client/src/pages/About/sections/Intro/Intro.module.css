@@ -1,0 +1,37 @@
+.wrapper{
+    width: 70vw;
+    margin: auto;
+    padding: 40px;
+    border-radius: 5px;
+    overflow:hidden;
+    margin-bottom: 80px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11px );
+-webkit-backdrop-filter: blur( 11px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img.bg {
+    /* Set rules to fill background */
+    z-index: -1;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  

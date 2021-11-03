@@ -1,0 +1,52 @@
+.wrapper{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ background-color: black;
+ color: white;
+ padding: 20px 0px;
+}
+
+
+.foot{
+    padding: 0px 10px;
+    overflow: hidden;
+    position: relative;
+    flex: 1 1 0px
+}
+
+
+.foot img{
+    display: block;
+    width: 180px;
+
+}
+
+.heading{
+    font-size: 12px;
+    margin-bottom: 0;
+
+}
+
+.body{
+    margin-top: 1px;
+    font-size: 12px;
+}
+
+
+.icon{
+  font-size: 80px;
+  color: red;
+  left: 0;
+  opacity: 0.1;
+  z-index: 0;
+  position: absolute;
+}
+
+
+  @media only screen and (max-width: 600px) {
+    .foot:first-child{
+      display: none;
+    }
+  
+  }

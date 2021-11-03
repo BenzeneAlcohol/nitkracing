@@ -1,0 +1,51 @@
+.heading{
+    font-size: 72px;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 80px;
+    margin-top: 0;
+    font-weight: 700;
+}
+
+.heading span{
+    position: relative;
+
+
+}
+
+.heading span::after{
+    position: absolute;
+    content: "";
+    height: 100px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: tomato;
+}
+
+
+@keyframes highlighter {
+    0%{
+      
+        transform: translateX(-50%);
+      
+    }
+
+  
+
+    100%{
+        transform: translateX(10%);
+      
+    }
+
+}
+
+
+
+@media (max-width:768px) {
+ .heading{
+   font-size: 52px;
+   
+ }
+}

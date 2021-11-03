@@ -1,0 +1,110 @@
+
+.anime_heading-enter{
+    opacity: 0;
+    transform: translateX(10%);
+
+    
+}
+
+
+.anime_heading-enter-active{
+    opacity: 1;
+    transform: translateX(0%);
+    transition-duration: 300ms;
+    transition-delay: 200ms;
+}
+
+.anime_heading-exit{
+    transform: translateX(0%);
+    opacity: 0;
+
+
+}
+
+.anime_secondary_subheading-exit-active{
+    opacity: 0;
+
+    transform: translateX(10%);     
+    transition-duration: 600ms;
+
+}
+
+
+
+
+.anime_secondary_subheading-enter{
+    opacity: 0;
+    transform: translateX(10%);
+    transition-duration: 1s;
+
+    
+}
+
+
+
+/*     COMMETNT        */
+
+.anime_secondary_subheading-enter{
+    opacity: 0;
+    transform: translateX(10%);
+ 
+    
+}
+
+
+.anime_secondary_subheading-enter-active{
+    opacity: 1;
+    transform: translateX(0%);
+    transition-duration: 300ms;
+    transition-delay: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+.anime_secondary_subheading-exit{
+    transform: translateX(0%);
+    opacity: 0;
+}
+
+.anime_secondary_subheading-exit-active{
+    opacity: 0;
+
+    transform: translateX(10%);     
+    transition-duration: 600ms;
+    transition-timing-function: ease-in-out;
+
+
+}
+
+
+/* COMMENT  */
+
+
+.anime_primary_subheading-enter{
+    opacity: 0;
+    transform: translateX(10%);
+ 
+    
+}
+
+.anime_primary_subheading-enter-active{
+    opacity: 1;
+    transform: translateX(0%);
+    transition-duration: 300ms;
+    transition-delay: 100ms;
+    transition-timing-function: ease-in-out;
+}
+
+.anime_primary_subheading-exit{
+    transform: translateX(0%);
+    opacity: 0;
+}
+
+.anime_primary_subheading-exit-active{
+    opacity: 0;
+
+    transform: translateX(10%);     
+    transition-duration: 600ms;
+    transition-timing-function: ease-in-out;
+
+
+}
